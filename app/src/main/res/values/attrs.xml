@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="TextView">
+        <attr name="clickCommand" />
+        <!-- require boolean value to decide whether requestFocus for view. -->
+        <attr name="requestFocus" />
+        <!--require ReplyCommand<TextChangeDataWrapper> -->
+        <attr name="beforeTextChangedCommand" format="reference" />
+        <!--require ReplyCommand<TextChangeDataWrapper> -->
+        <attr name="onTextChangedCommand" format="reference" />
+        <!--require ReplyCommand<String> -->
+        <attr name="afterTextChangedCommand" format="reference" />
+    </declare-styleable>
+</resources>
