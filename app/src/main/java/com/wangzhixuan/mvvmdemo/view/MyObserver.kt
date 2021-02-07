@@ -23,14 +23,4 @@ class MyObserver : IPresenter {
     override fun onDestroy(owner: LifecycleOwner) {
         Log.v(TAG,"onDestroy")
     }
-
-//    @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
-//    fun onCreate(@NotNull owner: LifecycleOwner) {
-//        Log.v(TAG,"onCreate")
-//    }
-//
-//    @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
-//    fun onDestroy(@NotNull owner: LifecycleOwner) {
-//        Log.v(TAG,"onDestroy")
-//    }
 }
